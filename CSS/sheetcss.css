@@ -217,23 +217,26 @@ li:hover
 		font-size: 3vw;
 	}
 
-	span.restaurants__fav
+	.fa-regular.fa-heart
 	{
 		position: relative;
 		float: right;
 		font-size: 25px;
-		color: darkgrey;
-		padding-right: 25px;
+		border-color: darkgray;
+		margin-right: 40px;
 		vertical-align: top;
-		top: -60px;
+		top: -50px;
+		color: darkgray;
 	}
 
-	.restaurants__fav:hover
+	.fa-regular.fa-heart:hover
 	{
-    transition: all 1s linear 10s;
-    color: pink;
-    position: absolute;
-   
+		font-weight: bold;
+		color: #ffabc1;
+		display: block;
+		background: -webkit-radial-gradient(#FF79DA, #9356DC);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 
 	span.restaurants__new

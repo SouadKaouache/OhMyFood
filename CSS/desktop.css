@@ -230,15 +230,26 @@
 		
 	}
 
-	span.restaurants__fav
+	.fa-regular.fa-heart
 	{
 		position: relative;
 		float: right;
 		font-size: 25px;
-		color: darkgrey;
-		padding-right: 55px;
+		border-color: darkgray;
+		margin-right: 40px;
 		vertical-align: top;
 		top: -50px;
+		color: darkgray;
+	}
+
+	.fa-regular.fa-heart:hover
+	{
+		font-weight: bold;
+		color: #ffabc1;
+		display: block;
+		background: -webkit-radial-gradient(#FF79DA, #9356DC);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 
 	span.restaurants__new
