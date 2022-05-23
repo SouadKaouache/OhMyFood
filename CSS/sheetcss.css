@@ -57,13 +57,12 @@
 		font-size: 15px;
 	}
 
-	#logo
+	.logo__site
 	{
-		display: block;
-		margin: auto;
-		margin-bottom: 5%;
-		margin-top: 5%;
-		width: 60%;
+		font-family: 'shrikhand';
+		font-size: 60px;
+		
+		text-align: center;
 	}
 
 	.reservation 
@@ -396,7 +395,7 @@ li:hover
 		padding-top: 30px;
 		padding-left: 5%;
 		font-size: 4vw;
-		width: 100%;
+		width: 95%;
 		color: white;
 		height: 60vw;
 		padding-top: 30px;
