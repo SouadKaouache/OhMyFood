@@ -333,10 +333,11 @@ input:focus{
   margin-top: 20px;
   height: 80px;
   width: 30%;
-  min-width: 300px;
+  min-width: 378px;
   background-color: #efefef;
   font-size: medium;
 	transition: transform 2s;
+  align-items: center;
 }
 
 .principle__list__contents__link:hover {
