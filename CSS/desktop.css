@@ -344,6 +344,7 @@ input:focus{
   background-color: #efefef;
   font-size: medium;
 	transition: transform 2s;
+  position: relative;
 }
 
 .principle__list__contents__link:hover {
@@ -370,7 +371,7 @@ input:focus{
   left: -7px;
 }
 .principle__list__contents__link i {
-  margin-right: 5px;
+  margin: 5px;
   color: #232323;
 }
 
