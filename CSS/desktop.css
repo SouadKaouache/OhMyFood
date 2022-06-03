@@ -341,6 +341,7 @@ input:focus{
   margin-top: 20px;
   height: 80px;
   width: 100%;
+  min-width: 300px;
   background-color: #efefef;
   font-size: medium;
 	transition: transform 2s;
