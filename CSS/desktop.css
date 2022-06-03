@@ -330,17 +330,15 @@ input:focus{
 .principle__list__contents__link {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   box-shadow: 10px 10px 20px #bcbcbc;
   border-radius: 20px;
   margin-top: 20px;
   height: 80px;
-  width: 100%;
   min-width: 300px;
   background-color: #efefef;
   font-size: medium;
 	transition: transform 2s;
-  position: relative;
 }
 
 .principle__list__contents__link:hover {
