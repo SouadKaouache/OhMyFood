@@ -323,14 +323,6 @@ input:focus{
   padding-bottom: 20px;
 }
 
-.principle__list__contents{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  max-width: 28%;
-  justify-content: space-around
-}
-
 .principle__list{
   display: flex;
   flex-direction: row;
