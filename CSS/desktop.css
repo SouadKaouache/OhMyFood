@@ -314,7 +314,6 @@ input:focus{
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   margin-bottom: 60px;
-  width: 100%;
 }
 
 .principle h3 {
@@ -326,7 +325,6 @@ input:focus{
 .principle__list{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .principle__list__contents__link {
