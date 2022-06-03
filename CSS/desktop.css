@@ -342,7 +342,7 @@ input:focus{
   border-radius: 20px;
   margin-top: 20px;
   height: 80px;
-  width: 30%;
+  width: 100%;
   min-width: 350px;
   background-color: #efefef;
   font-size: medium;
