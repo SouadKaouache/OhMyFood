@@ -324,9 +324,6 @@ input:focus{
 }
 
 .principle__list{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   width: 100%;
 }
 
