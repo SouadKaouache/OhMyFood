@@ -333,6 +333,10 @@ input:focus{
   width: 90%;
 }
 
+.principle__list{
+  width: 90%;
+}
+
 .principle__list__contents__link {
   display: inline-flex;
   flex-wrap: nowrap;
