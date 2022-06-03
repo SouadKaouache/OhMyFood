@@ -327,7 +327,6 @@ input:focus{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
 }
 
 .principle__list__contents__link {
