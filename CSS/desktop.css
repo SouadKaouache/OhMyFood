@@ -333,7 +333,6 @@ input:focus{
 .principle__list__contents__link {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   box-shadow: 10px 10px 20px #bcbcbc;
   border-radius: 20px;
   margin-top: 20px;
