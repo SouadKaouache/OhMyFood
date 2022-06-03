@@ -350,9 +350,7 @@ input:focus {
   box-shadow: 10px 10px 20px darkgray;
   transform: scale(1.1);
 }
-  .principle__list__contents__link {
-    width: 70%;
-}
+ 
 .principle__list__contents__link:hover {
   background-color: #e4d5f6;
 }
