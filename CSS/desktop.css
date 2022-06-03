@@ -325,8 +325,15 @@ input:focus{
   padding-bottom: 20px;
 }
 
+.principle__list__contents{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
 .principle__list__contents__link {
-  display: flex;
+  display: inline-flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
   box-shadow: 10px 10px 20px #bcbcbc;
@@ -340,6 +347,7 @@ input:focus{
 	transition: transform 2s;
   align-items: center;
   position: relative;
+  text-align: center;
 }
 
 .principle__list__contents__link:hover {
