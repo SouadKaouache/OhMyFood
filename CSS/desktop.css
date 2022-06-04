@@ -326,11 +326,12 @@ input:focus{
 
 .principle__list__contents{
   justify-content: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .principle__list{
   width: 90%;
-  display: flex; 
 }
 
 .principle__list__contents__link {
