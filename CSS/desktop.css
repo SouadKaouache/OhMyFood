@@ -354,7 +354,6 @@ input:focus{
   background-color: #efefef;
   font-size: large;
 	transition: transform 2s;
-  text-align: center;
   align-items: center;
 }
 
@@ -384,7 +383,6 @@ input:focus{
 }
 .principle__list__contents__link i {
   margin: 5px;
-  width: auto;
   color: #232323;
 }
 
