@@ -354,6 +354,7 @@ input:focus{
   font-size: large;
 	transition: transform 2s;
   text-align: center;
+  align-items: center;
 }
 
 .principle__list__contents__link:hover {
