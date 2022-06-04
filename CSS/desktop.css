@@ -516,7 +516,7 @@ input:focus{
 }
 
 .presentation__insert__card__caption__favorite-icon--2{
-    transition-duration: 2s;
+    transition-duration: 2000ms;
 }
 
 .presentation__insert__card__caption__favorite-icon--2:hover {
@@ -674,7 +674,7 @@ h2{
 }
 
 .restaurant__name__favorite--2{
-    transition-duration: 3s;
+    transition-duration: 2000ms;
 }
 
 .restaurant__name__favorite--2:hover {
