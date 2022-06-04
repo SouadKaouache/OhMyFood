@@ -1,11 +1,31 @@
 
 .header__loader__content__ring > div {
   display: inline-block;
-  width: 264px;
-  height: 264px;
+  width: 364px;
+  height: 364px;
   border-radius: 50%;
-  background: -webkit-linear-gradient(30deg, #ff79d9, #9356dc 80%);;
-  animation: header__loader__content__ring 3000ms ease-in-out 0ms forwards;
+  background: -webkit-linear-gradient(30deg, #ff79d9, #9356dc 80%);
+  animation: header__loader__content__ring 3000ms ease-in-out 3000ms forwards;
+}
+
+@keyframes clignoter {
+  0%   { opacity:1;
+        color:#000000 }
+  10%   {opacity:0; }
+  20%   { opacity:1;
+        color: gold }
+  40%   {opacity:0; }
+  50%    { opacity:1; 
+        color: #000000;}
+  60%   {opacity:0; }
+  70%    { opacity:1;
+        color:gold }
+  80%   {opacity:0; }
+  90%     { opacity:1;
+          color:#000000 }
+  100% { opacity:1; 
+  transform: scale(1.5);
+        color:#000000}
 }
 
 @keyframes header__loader__content__ring{
@@ -185,7 +205,7 @@ a {
 .header__loader__content__ring{
   background: linear-gradient(#9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   border-radius: 200px;
-  width: 264x;
+  width: 264px;
   height: 264px;
   margin: auto;
   position: absolute;
@@ -199,6 +219,10 @@ a {
   font-weight: bold;
   z-index: 3;
   text-align: center;
+  animation-duration: 3000ms;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
 }
 .header__logo {
   font-family: "Shrikhand", sans-serif;
@@ -515,7 +539,7 @@ input:focus{
 
 
 .footer__effect {
-  font-family: "Shrikhand", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -774,7 +798,7 @@ h2{
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
 
   
 
