@@ -325,7 +325,8 @@ input:focus{
 .principle h3 {
   font-size: x-large;
   padding-left: 15px;
-  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30PX;
 }
 
 .principle__list{
