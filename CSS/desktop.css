@@ -323,10 +323,6 @@ input:focus{
   padding-bottom: 20px;
 }
 
-.principle__list__contents{
-  justify-content: center;
-}
-
 .principle__list{
   width: 90%;
 }
