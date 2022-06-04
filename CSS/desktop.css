@@ -310,12 +310,11 @@ input:focus{
 }
 
 .principle {
+  display: flex;
   font-weight: bold;
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   margin-bottom: 60px;
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
 
@@ -326,33 +325,25 @@ input:focus{
 }
 
 .principle__list__contents{
-  display: inline-flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 90%;
+  justify-content: center;
 }
 
 .principle__list{
   width: 90%;
+  display: flex; 
 }
 
 .principle__list__contents__link {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: space-around;
   box-shadow: 10px 10px 20px #bcbcbc;
   border-radius: 20px;
   margin-top: 20px;
+  margin-bottom: 30px;
   height: 80px;
-  width: 100%;
-  min-width: 350px;
+  min-width: 450px;
+  max-width: max-content;
   background-color: #efefef;
-  font-size: medium;
+  font-size: large;
 	transition: transform 2s;
-  align-items: center;
-  position: relative;
   text-align: center;
 }
 
@@ -382,6 +373,7 @@ input:focus{
 }
 .principle__list__contents__link i {
   margin: 5px;
+  width: auto;
   color: #232323;
 }
 
