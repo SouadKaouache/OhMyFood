@@ -324,6 +324,7 @@ input:focus{
 .main__button__appearance p {
   color: #ffffff;
   padding-top: 5%;
+  text-align: center;
 }
 
 #main {
@@ -637,11 +638,11 @@ input:focus{
   position: relative;
   top: -5px;
   height: 70px;
-  width: 100%;
+  width: 70%;
+  margin: auto;
 }
 
 h2{
-  width: 70%;
   font-size: xx-large;
   margin-top: 2%;
 }
@@ -654,8 +655,8 @@ h2{
   width: 2rem;
   height: 2rem;
   position: absolute;
-  right: 16%;
-  margin-top: 2%;
+  right: 1%;
+  top: -2%;
   background: #efefef;
   animation:fa-beat 2s infinite;
   font-size: 2rem
@@ -703,15 +704,16 @@ h2{
   background-color: #99e2d0;
 }
 .menu__insert__contents {
-  height: 15%;
   width: 100%;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background-color: #ffffff;
   border-radius: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
   box-shadow: 10px 10px 20px #bcbcbc;
   overflow: hidden;
   cursor: pointer;
@@ -778,7 +780,7 @@ h2{
   animation: progressive 400ms linear 0ms forwards 1 normal;
   width: 70%;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 3%;
   margin-top: 20px;
 }
 
@@ -786,11 +788,13 @@ h2{
   animation: progressive 400ms linear 600ms forwards 1 normal;
   width: 70%;
   margin: auto;
+  margin-bottom: 3%;
 }
 
 .menu__dessert {
   animation: progressive 400ms linear 1200ms forwards 1 normal;
   width: 70%;
   margin: auto;
+  margin-bottom: 3%;
 }
 }
