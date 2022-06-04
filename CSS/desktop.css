@@ -1,8 +1,8 @@
 
 .header__loader__content__ring > div {
   display: inline-block;
-  width: 364px;
-  height: 364px;
+  width: 264px;
+  height: 264px;
   border-radius: 50%;
   background: -webkit-linear-gradient(30deg, #ff79d9, #9356dc 80%);
   animation: header__loader__content__ring 3000ms ease-in-out 3000ms forwards;
@@ -23,8 +23,7 @@
   80%   {opacity:0; }
   90%     { opacity:1;
           color:#000000 }
-  100% { opacity:1; 
-  transform: scale(1.5);
+  100% { opacity:1;;
         color:#000000}
 }
 

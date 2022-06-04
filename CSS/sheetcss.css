@@ -116,7 +116,7 @@
 body {
   font-family: "Roboto", arial, sans-serif;
   position: relative;
-  width: 100%;
+  max-width: 100%;
 }
 
 *, *:before, *:after {
@@ -207,7 +207,7 @@ a {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 99%;
   background-color: #d6d6d6;
   margin-top: 6px;
   padding-top: 10px;
@@ -350,7 +350,9 @@ input:focus {
   box-shadow: 10px 10px 20px darkgray;
   transform: scale(1.1);
 }
- 
+  .principle__list__contents__link {
+    width: 70%;
+}
 .principle__list__contents__link:hover {
   background-color: #e4d5f6;
 }
