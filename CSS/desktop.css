@@ -310,7 +310,6 @@ input:focus{
 }
 
 .principle {
-  display: flex;
   font-weight: bold;
   font-size: 24px;
   font-family: "Roboto", sans-serif;
@@ -326,8 +325,6 @@ input:focus{
 
 .principle__list__contents{
   justify-content: center;
-  display: flex;
-  flex-direction: row;
 }
 
 .principle__list{
