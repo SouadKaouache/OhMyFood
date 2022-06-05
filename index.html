@@ -1,257 +1,275 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <LINK rel="stylesheet" type="text/css" href="./css/sheetcss.css">
-            <link href= " https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet" type="text/css"/>
-            <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" type="text/css"/>
-            <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet" type="text/css"/>
-            <script src="https://kit.fontawesome.com/a5fbc47ddc.js" crossorigin="anonymous"></script>
-            <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="./CSS/sheetcss.css" rel="stylesheet" type="text/css" media="screen" />
-        <link href="./CSS/desktop.css" rel="stylesheet" media="only screen and (min-width : 992px)"/>
-        <link href="./CSS/tablette.css" rel="stylesheet" media="only screen and (min-width : 768px) and (max-width : 991px)">
-        <link href="./CSS/sheetcss.css" rel="stylesheet" media="only screen and (max-width : 768px)"/>
-        <link rel="stylesheet" type="text/css" href="./css/normalize.css">
-        <link rel="icon" href="./Images/favicon.ico" />
-        
-        
-        <title>
-            ohmyfood
-        </title>
-    </head>
-    <body>
-        <header class="header"> 
-            <!--loading spinner-->
-            <div class="header__loader">
-                <div class="header__loader__content">
-                    <div class="header__loader__content__ring"><div></div></div>
-                    <div class="header__loader__content__name">
-                        Ohmyfood
-                    </div>
-                    </div>
-         </div>       
-            <!--logo-->      
-            <div class="header__logo">
-               Ohmyfood
-            </div>      
-            <!--recherche par ville ou géolocalisation-->
-            <div class="header__request">
-                    <div class="header__request__icon">
-                        <i class="fa-solid fa-location-dot">
-                        </i>
-                    </div>
-                    <input class="header__request__input" type="search" placeholder="Paris, Belleville">
-            </div>
-            <!--présentation-->
-            <div class="header__explanation">
-                <h2 class="header__explanation__booking">
-                    Réservez le menu qui vous convient
-                </h2>
-                <div class="header__explanation__discover">
-                    Découvrez des restaurants d'exception, sélectionnés par nos soins
-                </div>
-            </div>
-            <!--bouton-->
-            <div class="main__button">
-                <div class="main__button__appearance">
-                    <a href="#">
-                        <p>
-                        Explorer nos restaurants
-                        </p>
-                    </a>
-                </div>
-            </div>
-        </header>
-        <main id="main">
-            <div class="principle">
-                <h3 class="principle__headline">
-                    Fonctionnement
-                </h3>
-                <div class="principle__list">
-                        <div class="principle__list__contents">
-                            <a class="principle__list__contents__link" href="#">
-                            <span class="principle__list__contents__link__numbering">
-                                1
-                            </span>
-                                <div class="principle__list__contents__link__icon">
-                                    <i class="fa-solid fa-mobile-screen">
-                                    </i>
-                                </div>
-                                        <div class="principle__list__contents__link__quote">
-                                            Choisissez un restaurant
-                                        </div>
-                                    </a>
-                        </div>
-                        <div class="principle__list__contents">
-                            <a class="principle__list__contents__link" href="#">
-                            <span class="principle__list__contents__link__numbering">
-                                2
-                            </span>
-                                <div class="principle__list__contents__link__icon">
-                                    <i class="fa-solid fa-list">
-                                    </i>
-                                </div>
-                                        <div class="principle__list__contents__link__quote">
-                                            Composez votre menu
-                                        </div>
-                            </a>
-                        </div>     
-                        <div class="principle__list__contents">
-                            <a class="principle__list__contents__link" href="#"> 
-                            <span class="principle__list__contents__link__numbering">
-                                3
-                            </span>
-                                <div class="principle__list__contents__link__icon">
-                                    <i class="fa-solid fa-store">
-                                    </i>
-                                </div>
-                                        <div class="principle__list__contents__link__quote">
-                                            Dégustez au restaurant
-                                        </div>
-                            </a>
-                        </div>
-                </div>
-            </div>
-            <section>
-                <div class="presentation">
-                    <h3 class="presentation__headline">
-                        Restaurants
-                    </h3>
-                    <div class="presentation__insert">
-                        <!--card type nouveau-->
-                        <div class="presentation__insert__card">
-                            <a class="presentation__insert__card__link" href="La_palette_du_goût.html">
-                                <div class="presentation__insert__picture">
-                                    <span class="presentation__insert__card__new">
-                                        Nouveau
-                                    </span>
-                                    <img class="presentation__insert__card__picture" src="./Images/La_palette_du_goût.jpg" alt="La palette du goût">
-                                </div>
-                                <div class="presentation__insert__card__caption">
-                                    <h4 class="presentation__insert__card__caption__name">
-                                        La palette du goût
-                                    </h4>
-                                    <p class="presentation__insert__card__caption__location">
-                                        Ménilmontant
-                                    </p>                               
-                                    <span class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--1">
-                                        <i class="fas fa-heart"></i>                    
-                                    </span>
-                                    <span class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--2">
-                                        <i class="far fa-heart"></i>                    
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="presentation__insert__card">
-                            <a class="presentation__insert__card__link" href="La_note_enchantée.html">
-                                <div class="presentation__insert__picture">
-                                    <span class="presentation__insert__card__new">
-                                        Nouveau
-                                    </span>
-                                    <img class="presentation__insert__card__picture" src="./Images/La_note_enchantée.jpg" alt="La note enchantée">
-                                </div>
-                                <div class="presentation__insert__card__caption">
-                                    <h4 class="presentation__insert__card__caption__name">
-                                        La note enchantée
-                                    </h4>
-                                    <p class="presentation__insert__card__caption__location">
-                                        Charonne
-                                    </p>
-                                    <span class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--1">
-                                        <i class="fas fa-heart"></i>                    
-                                    </span>
-                                    <span class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--2">
-                                        <i class="far fa-heart"></i>                    
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <!--card type restau-->
-                        <div class="presentation__insert__card">
-                            <a class="presentation__insert__card__link" href="Menu_A_la_française.html">
-                                <div class="presentation__insert__card__picture">
-                                    <img class="presentation__insert__card__picture" src="./Images/A_la_française.jpg" alt="À la française">
-                                </div>
-                                    <div class="presentation__insert__card__caption">
-                                    <h4 class="presentation__insert__card__caption__name">
-                                        Menu à la Française
-                                    </h4>
-                                    <p class="presentation__insert__card__caption__location">
-                                        Cité Rouge
-                                    </p>
-                                    <span class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--1">
-                                        <i class="fas fa-heart"></i>                    
-                                    </span>
-                                    <span class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--2">
-                                        <i class="far fa-heart"></i>                    
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="presentation__insert__card">
-                            <a class="presentation__insert__card__link" href="Le_délice_des_sens.html">
-                                <div class="presentation__insert__card__picture">
-                                    <img class="presentation__insert__card__picture" src="./Images/Le_délice_des_sens.jpg" alt="Le délice des sens">
-                                </div>
-                                    <div class="presentation__insert__card__caption">
-                                    <h4 class="presentation__insert__card__caption__name">
-                                        Le délice des sens
-                                    </h4>
-                                    <p class="presentation__insert__card__caption__location">
-                                        Folie-Méricourt
-                                    </p>
-                                    <span class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--1">
-                                        <i class="fas fa-heart"></i>                    
-                                    </span>
-                                    <span class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--2">
-                                        <i class="far fa-heart"></i>                    
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="footer" id="footer__layout">           
-                  <div class="footer__effect">OhMyFood</div>                  
-            <ul class="footer__list">
-                <li class="footer__list__contents">
-                    <a class="footer__list__contents__link" href="#">
-                        <div class="footer__list__contents__icon">
-                            <i class="fas fa-utensils fa-fw">
-                            </i>
-                            <p class="footer__list__contents__caption">
-                                Proposer un Restaurant
-                            </p>
-                        </div>
-                    </a>
-                </li>
-                <li class="footer__list__contents">
-                    <a class="footer__list__contents__link" href="#">
-                        <div class="footer__list__contents__icon">
-                            <i class="fas fa-hands-helping fa-fw">
-                            </i>
-                            <p class="footer__list__contents__caption">
-                                Devenir partenaire
-                            </p>
-                        </div>
-                    </a>
-                </li>
-                <li class="footer__list__contents">
-                    <a class="footer__list__contents__link" href="#">
-                        Mentions Légales
-                    </a>
-                </li>
-                <li class="footer__list__contents">
-                    <a class="footer__list__contents__link" href="mailto:s.kaouache@hotmail.fr">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </footer>
-    </body>
-    </html>
 
+<head>
+    <LINK rel="stylesheet" type="text/css" href="./css/sheetcss.css">
+    <link href=" https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/a5fbc47ddc.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="./CSS/sheetcss.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="./CSS/desktop.css" rel="stylesheet" media="only screen and (min-width : 992px)" />
+    <link href="./CSS/tablette.css" rel="stylesheet"
+        media="only screen and (min-width : 768px) and (max-width : 991px)">
+    <link href="./CSS/sheetcss.css" rel="stylesheet" media="only screen and (max-width : 768px)" />
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="icon" href="./Images/favicon.ico" />
+
+
+    <title>
+        ohmyfood
+    </title>
+</head>
+
+<body>
+    <header class="header">
+        <!--loading spinner-->
+        <div class="header__loader">
+            <div class="header__loader__content">
+                <div class="header__loader__content__ring">
+                    <div></div>
+                </div>
+                <div class="header__loader__content__name">
+                    <i class="fa-solid fa-fire-burner"></i>Ohmyfood<i class="fa-solid fa-utensils"></i>
+                </div>
+            </div>
+        </div>
+        <!--logo-->
+        <div class="header__logo">
+            Ohmyfood
+        </div>
+        <!--recherche par ville ou géolocalisation-->
+        <div class="header__request">
+            <div class="header__request__icon">
+                <i class="fa-solid fa-location-dot">
+                </i>
+            </div>
+            <input class="header__request__input" type="search" placeholder="Paris, Belleville">
+        </div>
+        <!--présentation-->
+        <div class="header__explanation">
+            <h2 class="header__explanation__booking">
+                Réservez le menu qui vous convient
+            </h2>
+            <div class="header__explanation__discover">
+                Découvrez des restaurants d'exception, sélectionnés par nos soins
+            </div>
+        </div>
+        <!--bouton-->
+        <div class="main__button">
+            <div class="main__button__appearance">
+                <a href="#">
+                    <p>
+                        Explorer nos restaurants
+                    </p>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="principle">
+            <h3 class="principle__headline">
+                Fonctionnement
+            </h3>
+            <div class="principle__list">
+                <div class="principle__list__contents">
+                    <a class="principle__list__contents__link" href="#">
+                        <span class="principle__list__contents__link__numbering">
+                            1
+                        </span>
+                        <div class="principle__list__contents__link__icon">
+                            <i class="fa-solid fa-mobile-screen">
+                            </i>
+                        </div>
+                        <div class="principle__list__contents__link__quote">
+                            Choisissez un restaurant
+                        </div>
+                    </a>
+                </div>
+                <div class="principle__list__contents">
+                    <a class="principle__list__contents__link" href="#">
+                        <span class="principle__list__contents__link__numbering">
+                            2
+                        </span>
+                        <div class="principle__list__contents__link__icon">
+                            <i class="fa-solid fa-list">
+                            </i>
+                        </div>
+                        <div class="principle__list__contents__link__quote">
+                            Composez votre menu
+                        </div>
+                    </a>
+                </div>
+                <div class="principle__list__contents">
+                    <a class="principle__list__contents__link" href="#">
+                        <span class="principle__list__contents__link__numbering">
+                            3
+                        </span>
+                        <div class="principle__list__contents__link__icon">
+                            <i class="fa-solid fa-store">
+                            </i>
+                        </div>
+                        <div class="principle__list__contents__link__quote">
+                            Dégustez au restaurant
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="presentation">
+                <h3 class="presentation__headline">
+                    Restaurants
+                </h3>
+                <div class="presentation__insert">
+                    <!--card type nouveau-->
+                    <div class="presentation__insert__card">
+                        <a class="presentation__insert__card__link" href="La_palette_du_goût.html">
+                            <div class="presentation__insert__picture">
+                                <span class="presentation__insert__card__new">
+                                    Nouveau
+                                </span>
+                                <img class="presentation__insert__card__picture" src="./Images/La_palette_du_goût.jpg"
+                                    alt="La palette du goût">
+                            </div>
+                            <div class="presentation__insert__card__caption">
+                                <h4 class="presentation__insert__card__caption__name">
+                                    La palette du goût
+                                </h4>
+                                <p class="presentation__insert__card__caption__location">
+                                    Ménilmontant
+                                </p>
+                                <span
+                                    class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--1">
+                                    <i class="fas fa-heart"></i>
+                                </span>
+                                <span
+                                    class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--2">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="presentation__insert__card">
+                        <a class="presentation__insert__card__link" href="La_note_enchantée.html">
+                            <div class="presentation__insert__picture">
+                                <span class="presentation__insert__card__new">
+                                    Nouveau
+                                </span>
+                                <img class="presentation__insert__card__picture" src="./Images/La_note_enchantée.jpg"
+                                    alt="La note enchantée">
+                            </div>
+                            <div class="presentation__insert__card__caption">
+                                <h4 class="presentation__insert__card__caption__name">
+                                    La note enchantée
+                                </h4>
+                                <p class="presentation__insert__card__caption__location">
+                                    Charonne
+                                </p>
+                                <span
+                                    class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--1">
+                                    <i class="fas fa-heart"></i>
+                                </span>
+                                <span
+                                    class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--2">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <!--card type restau-->
+                    <div class="presentation__insert__card">
+                        <a class="presentation__insert__card__link" href="Menu_A_la_française.html">
+                            <div class="presentation__insert__card__picture">
+                                <img class="presentation__insert__card__picture" src="./Images/A_la_française.jpg"
+                                    alt="À la française">
+                            </div>
+                            <div class="presentation__insert__card__caption">
+                                <h4 class="presentation__insert__card__caption__name">
+                                    Menu à la Française
+                                </h4>
+                                <p class="presentation__insert__card__caption__location">
+                                    Cité Rouge
+                                </p>
+                                <span
+                                    class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--1">
+                                    <i class="fas fa-heart"></i>
+                                </span>
+                                <span
+                                    class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--2">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="presentation__insert__card">
+                        <a class="presentation__insert__card__link" href="Le_délice_des_sens.html">
+                            <div class="presentation__insert__card__picture">
+                                <img class="presentation__insert__card__picture" src="./Images/Le_délice_des_sens.jpg"
+                                    alt="Le délice des sens">
+                            </div>
+                            <div class="presentation__insert__card__caption">
+                                <h4 class="presentation__insert__card__caption__name">
+                                    Le délice des sens
+                                </h4>
+                                <p class="presentation__insert__card__caption__location">
+                                    Folie-Méricourt
+                                </p>
+                                <span
+                                    class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--1">
+                                    <i class="fas fa-heart"></i>
+                                </span>
+                                <span
+                                    class="presentation__insert__card__caption__favorite-icon presentation__insert__card__caption__favorite-icon--2">
+                                    <i class="far fa-heart"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer__layout">
+        <div class="footer__effect">OhMyFood</div>
+        <ul class="footer__list">
+            <li class="footer__list__contents">
+                <a class="footer__list__contents__link" href="#">
+                    <div class="footer__list__contents__icon">
+                        <i class="fas fa-utensils fa-fw">
+                        </i>
+                        <p class="footer__list__contents__caption">
+                            Proposer un Restaurant
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="footer__list__contents">
+                <a class="footer__list__contents__link" href="#">
+                    <div class="footer__list__contents__icon">
+                        <i class="fas fa-hands-helping fa-fw">
+                        </i>
+                        <p class="footer__list__contents__caption">
+                            Devenir partenaire
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="footer__list__contents">
+                <a class="footer__list__contents__link" href="#">
+                    Mentions Légales
+                </a>
+            </li>
+            <li class="footer__list__contents">
+                <a class="footer__list__contents__link" href="mailto:s.kaouache@hotmail.fr">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
