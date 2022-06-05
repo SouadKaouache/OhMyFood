@@ -4,34 +4,43 @@
       opacity: 1;
       color: #000000;
     }
+
     10% {
       opacity: 0;
     }
+
     20% {
       opacity: 1;
       color: white;
     }
+
     40% {
       opacity: 0;
     }
+
     50% {
       opacity: 1;
       color: #000000;
     }
+
     60% {
       opacity: 0;
     }
+
     70% {
       opacity: 1;
       color: white;
     }
+
     80% {
       opacity: 0;
     }
+
     90% {
       opacity: 1;
       color: #000000;
     }
+
     100% {
       opacity: 1;
       color: #000000;
@@ -43,26 +52,32 @@
       opacity: 1;
       transform: scale(1);
     }
+
     90% {
       opacity: 1;
       transform: scale(1.3);
     }
+
     94% {
       opacity: 0.8;
       transform: scale(1.5);
     }
+
     95% {
       opacity: 0.6;
       transform: scale(1.3);
     }
+
     96% {
       opacity: 0.5;
       transform: scale(1.2);
     }
+
     98% {
       opacity: 0.4;
       transform: scale(1.4);
     }
+
     100% {
       opacity: 0;
       transform: scale(0);
@@ -76,24 +91,28 @@
       opacity: 0;
       transform: scale(0);
     }
+
     80% {
       overflow: hidden;
       height: 5px;
       opacity: 0;
       transform: scale(0);
     }
+
     90% {
       overflow: hidden;
       height: 5px;
       opacity: 0;
       transform: scale(0);
     }
+
     95% {
       overflow: hidden;
       height: 500px;
       opacity: 0.2;
       transform: scale(0.2);
     }
+
     100% {
       overflow: visible;
       opacity: 1;
@@ -101,15 +120,18 @@
       transform: scale(1);
     }
   }
+
   /*loader cercle et icone et icone qui tourne check plats menus*/
   @keyframes turn {
     0% {
       transform: rotate(0deg);
     }
+
     100% {
       transform: rotate(360deg);
     }
   }
+
   /*évite scroll au loader et apparition du site douce*/
 
   /*animation menus apparition*/
@@ -118,10 +140,12 @@
       opacity: 0;
       transform: translatey(50%);
     }
+
     50% {
       opacity: 0.5;
       transform: translatey(20%);
     }
+
     100% {
       opacity: 1;
     }
@@ -133,6 +157,7 @@
       background: linear-gradient(#9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
       filter: brightness(0.4);
     }
+
     100% {
       background: -webkit-linear-gradient(30deg, #ff79d9, #9356dc 80%);
       filter: brightness(1.3);
@@ -184,6 +209,7 @@
     /*logo*/
     /*barre localisation et recherche ville*/
   }
+
   .header__loader {
     width: 100%;
     height: 100%;
@@ -195,6 +221,7 @@
     z-index: 90;
     animation: header__loader__content__ring 3000ms ease-in-out 0ms forwards;
   }
+
   .header__loader__content {
     display: flex;
     flex-direction: column;
@@ -218,6 +245,7 @@
     position: absolute;
     z-index: 1;
   }
+
   .header__loader__content .header__loader__content__name {
     color: black;
     text-shadow: 5px 5px #9356dc, 5px 5px 5px #ff79da;
@@ -233,6 +261,7 @@
   .header__loader i {
     margin: 30px;
   }
+
   .header__logo {
     font-family: "Shrikhand", sans-serif;
     cursor: default;
@@ -260,6 +289,7 @@
     box-shadow: inset 0px 5px 4px 0px #bcbcbc;
     animation: display 400ms ease-out 3000ms normal both;
   }
+
   .header__request__icon {
     display: inline-flex;
     justify-content: center;
@@ -268,6 +298,7 @@
     height: 30px;
     border: none;
   }
+
   .header__request__input {
     max-width: 150px;
     border: none;
@@ -275,6 +306,7 @@
     font-family: "Roboto", sans-serif;
     font-size: large;
   }
+
   .header__request__input::placeholder {
     text-align: center;
     color: black;
@@ -293,15 +325,18 @@
     background-color: #efefef;
     cursor: default;
   }
+
   .header__explanation__booking {
     font-size: 24px;
     width: 100%;
   }
+
   .header__explanation__discover {
     width: 100%;
     font-size: 18px;
     margin-top: 10px;
   }
+
   .main__button {
     width: 100%;
     display: flex;
@@ -314,6 +349,7 @@
     padding-bottom: 30px;
     animation: display 400ms ease-out 3000ms normal both;
   }
+
   .main__button__appearance {
     width: 230px;
     height: 50px;
@@ -325,6 +361,7 @@
     box-shadow: 10px 10px 20px #bcbcbc;
     transition: transform 2s;
   }
+
   .main__button__appearance:hover {
     box-shadow: 10px 10px 20px darkgray;
     transform: scale(1.2);
@@ -399,6 +436,7 @@
   .principle__list__contents__link:hover i {
     color: #9356dc;
   }
+
   .principle__list__contents__link__numbering {
     background-color: #9356dc;
     position: absolute;
@@ -414,6 +452,7 @@
     left: -7px;
     margin: 5px;
   }
+
   .principle__list__contents__link i {
     margin: 5px;
     color: #232323;
@@ -431,6 +470,7 @@
     width: 100%;
     padding-bottom: 20px;
   }
+
   .presentation__headline {
     align-self: start;
     margin: 25px 0px 0px 15px;
@@ -442,6 +482,7 @@
   .presentation__headline {
     align-self: center;
   }
+
   .presentation__insert {
     display: flex;
     flex-direction: row;
@@ -463,6 +504,7 @@
     margin-bottom: 30px;
     transition: transform 2s;
   }
+
   .presentation__insert__card:hover {
     box-shadow: 10px 10px 20px #565656;
     transform: scale(1.1);
@@ -483,15 +525,18 @@
     font-size: large;
     border-top-right-radius: 15px;
   }
+
   .presentation__insert__card a {
     width: 100%;
   }
+
   .presentation__insert__card__picture {
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
     width: 100%;
     height: 300px;
   }
+
   .presentation__insert__card__caption {
     line-height: 30px;
     margin: 10px;
@@ -581,6 +626,7 @@
     justify-content: center;
     margin-bottom: 10px;
   }
+
   .footer__list__contents__icon {
     display: flex;
     flex-direction: row;
@@ -589,6 +635,7 @@
     align-items: center;
     font-size: medium;
   }
+
   .footer__list__contents__caption {
     margin-left: 10px;
   }
@@ -603,6 +650,7 @@
     0% {
       filter: hue-rotate(0deg);
     }
+
     100% {
       filter: hue-rotate(360deg);
     }
@@ -635,10 +683,12 @@
     padding-bottom: 40px;
     width: 100%;
   }
+
   .restaurant__picture {
     width: 100%;
     height: 350px;
   }
+
   .restaurant__name {
     font-family: "Shrikhand", sans-serif;
     border-top-left-radius: 25px;
@@ -676,13 +726,11 @@
   }
 
   .restaurant__name__favorite--1 {
-    background: -webkit-linear-gradient(
-      #9356dc,
-      #b35cdc,
-      #cf64dc,
-      #e86edb,
-      #ff79da
-    );
+    background: -webkit-linear-gradient(#9356dc,
+        #b35cdc,
+        #cf64dc,
+        #e86edb,
+        #ff79da);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -696,6 +744,7 @@
   .restaurant__name__favorite--2:hover {
     opacity: 0;
   }
+
   .restaurant__insert {
     display: flex;
     flex-direction: column;
@@ -708,6 +757,7 @@
     padding-bottom: 7px;
     position: relative;
   }
+
   .menu h3::after {
     content: "";
     position: absolute;
@@ -717,6 +767,7 @@
     height: 4px;
     background-color: #99e2d0;
   }
+
   .menu__insert__contents {
     width: 100%;
     margin-top: 15px;
@@ -732,16 +783,20 @@
     overflow: hidden;
     cursor: pointer;
   }
+
   .menu__insert__contents:hover {
     box-shadow: 10px 10px 20px #565656;
   }
+
   .menu__insert__contents:hover .menu__insert__contents__check {
     margin-right: 85px;
     opacity: 1;
   }
+
   .menu__insert__contents:hover .menu__insert__contents__check i {
     transform: rotate(1turn);
   }
+
   .menu__insert__contents__caption {
     width: 100%;
     margin-left: 15px;
@@ -756,17 +811,20 @@
     margin-bottom: 10px;
     text-overflow: ellipsis;
   }
+
   .menu__insert__contents__caption__recipe {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: large;
   }
+
   .menu__insert__contents__caption__price {
     font-size: large;
     font-weight: bold;
     margin-bottom: 15px;
   }
+
   .menu__insert__contents__check {
     width: 85px;
     height: 110px;
@@ -782,6 +840,7 @@
     align-items: center;
     opacity: 0;
   }
+
   .menu__insert__contents__check i {
     color: white;
     font-size: 20px;
