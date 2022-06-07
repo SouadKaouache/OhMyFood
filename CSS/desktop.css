@@ -848,7 +848,7 @@
   }
 
   .menu__starter {
-    animation: progressive 400ms linear 0ms forwards 1 normal;
+    animation: progressive 400ms linear 400ms forwards 1 normal;
     width: 70%;
     margin: auto;
     margin-bottom: 3%;
@@ -856,14 +856,14 @@
   }
 
   .menu__dish {
-    animation: progressive 400ms linear 600ms forwards 1 normal;
+    animation: progressive 800ms linear 800ms forwards 1 normal;
     width: 70%;
     margin: auto;
     margin-bottom: 3%;
   }
 
   .menu__dessert {
-    animation: progressive 400ms linear 1200ms forwards 1 normal;
+    animation: progressive 1200ms linear 1200ms forwards 1 normal;
     width: 70%;
     margin: auto;
     margin-bottom: 3%;

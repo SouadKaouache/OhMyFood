@@ -1,4 +1,3 @@
-@media only screen and (max-width: 768px) {
 
   /*loading spinner*/
   @keyframes header__loader__content__ring {
@@ -837,20 +836,19 @@
   }
 
   .menu__starter {
-    animation: progressive 400ms linear 0ms forwards 1 normal;
+    animation: progressive 400ms linear 400ms forwards 1 normal;
     width: 90%;
     margin: auto;
   }
 
   .menu__dish {
-    animation: progressive 400ms linear 700ms forwards 1 normal;
+    animation: progressive 800ms linear 800ms forwards 1 normal;
     width: 90%;
     margin: auto;
   }
 
   .menu__dessert {
-    animation: progressive 400ms linear 1400ms forwards 1 normal;
+    animation: progressive 1200ms linear 1200ms forwards 1 normal;
     width: 90%;
     margin: auto;
   }
-}
